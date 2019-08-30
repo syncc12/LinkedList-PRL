@@ -1,4 +1,4 @@
-# Complete
+# Complete 
 
 class LinkedListNode
   attr_accessor :value, :next_node
