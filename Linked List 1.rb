@@ -29,10 +29,8 @@ def print_spacing(printValue)
 end
 
 def print_stack(inStack)
-  #inStack.each do |i|
     print "#{inStack.data}"
     print "\n"
-  #end
 end
 class Stack
     attr_reader :data
@@ -71,7 +69,6 @@ def reverse_list(list)
 
     stackCounter.times do |i|
       putValue = stackForward.pop
-      # puts putValue
       stackBackward.push(putValue)
     end
 
@@ -94,7 +91,6 @@ puts "-------"
 
 revlist = reverse_list(node3)
 
-# puts revlist.class
 
 print_values(revlist)
 
